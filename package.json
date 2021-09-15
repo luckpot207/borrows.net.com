@@ -1,0 +1,44 @@
+{
+  "name": "eccube",
+  "version": "4.0.6-p1",
+  "description": "EC-CUBE EC open platform.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "echo \"Error: no clean specified\" && exit 1",
+    "build": "gulp",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EC-CUBE/ec-cube.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/EC-CUBE/ec-cube/issues"
+  },
+  "homepage": "https://www.ec-cube.net/",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "bootstrap": "^4.3.1",
+    "bootstrap-sass": "^3.4.1",
+    "browser-sync": "^2.26.7",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "normalize.css": "^5.0.0",
+    "postcss-import": "^12.0.1",
+    "process": "^0.11.10",
+    "sort-css-media-queries": "^1.4.3"
+  }
+}
